@@ -1,6 +1,5 @@
 ---
 tags:
-  - location
   - locations
 publish: true
 marker:

@@ -2,7 +2,6 @@
 publish: true
 title: Campaign Home
 ---
-
 # Welcome, adventurers
 
 This is the living record of our campaign. Anything hidden here is hidden
