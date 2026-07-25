@@ -242,7 +242,10 @@ plugins:
         GitHub: https://github.com/jackyzha0/quartz
         Discord Community: https://discord.gg/cRFFHYye7t
   - source: "@quartz-community/recent-notes"
-    enabled: false
+    enabled: true
+    options:
+      limit: 3
+      showTags: true
   - source: "@quartz-community/spacer"
     enabled: true
     options: {}
