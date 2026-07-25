@@ -3,7 +3,7 @@ views:
     name: Map
     order:
       - file.name
-    image: Assets/Sword-Coast-Map_MedRes.jpg
+    image: Assets/Maps/Sword Coast/Sword Coast Map.jpg
     height: 800
     defaultZoom: -15
     minZoom: -3

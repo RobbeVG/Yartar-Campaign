@@ -1,0 +1,21 @@
+filters:
+  and:
+    - file.ext == "base"
+    - file != this.file
+formulas:
+  Untitled: file(file.folder+"/"+file.basename+".jpg")
+properties:
+  formula.Untitled:
+    displayName: Display
+views:
+  - type: cards
+    name: All Maps
+    order:
+      - file.basename
+    image: formula.Untitled
+    imageAspectRatio: 1
+    cardSize: 200
+  - type: table
+    name: View
+    order:
+      - file.name
