@@ -4,15 +4,7 @@ title: Campaign Home
 ---
 # Welcome, adventurers
 
-```leaflet
-```
-
-```leaflet
-id: ezaros-world-region
-image: [[Sword Coast Map.jpg]]
-```
-
-This is the living record of our !awesome campaign. Anything hidden here is hidden
+This is the living record of our **awesome** campaign. Anything hidden here is hidden
 on purpose — it'll show up the moment your characters actually discover it.
 
 > [!summary]+ [[PCs/index|Player Characters]]
