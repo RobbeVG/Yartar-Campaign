@@ -1,10 +1,9 @@
 ---
+publish: true
+created: 2026-07-25T11:59:43.357+02:00
+modified: 2026-07-25T17:22:20.724+02:00
 tags:
   - locations
-publish: true
-marker:
-  - coordinates: 5117, 4962
-    icon: lucide-map-pin
-    colour: "#f44546"
 ---
+
 **Yartar** (pronounced: / YAR-tarr) is a town in the [[Sword Coast]].
