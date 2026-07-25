@@ -7,4 +7,4 @@ marker:
     icon: lucide-map-pin
     colour: "#f44546"
 ---
-**Yartar** (pronounced: / YAR-tarr) is a town.
+**Yartar** (pronounced: / YAR-tarr) is a town in the [[Sword Coast]].

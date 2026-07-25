@@ -1,7 +1,7 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
   pageTitle: Verhalen Uit Yartar
-  pageTitleSuffix: ""
+  pageTitleSuffix: "- Yartar"
   enableSPA: true
   enablePopovers: true
   analytics:
@@ -160,11 +160,19 @@ plugins:
     enabled: true
   - source: "@quartz-community/explorer"
     enabled: true
+    options:
+      folderDefaultState: collapsed
+      useSavedState: true
     layout:
       position: left
       priority: 50
   - source: "@quartz-community/graph"
     enabled: true
+    options:
+      localGraph:
+        depth: 1
+      globalGraph:
+        depth: -1
     layout:
       position: right
       priority: 10
@@ -267,7 +275,7 @@ plugins:
   - source: github:Requiae/quartz-leaflet-bases-plugin
     enabled: true
     options:
-      enableCopyTool: false
+      enableCopyTool: true
   - source: "@quartz-community/obsidian-plugin-excalidraw"
     enabled: true
     options:

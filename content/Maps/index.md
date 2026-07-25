@@ -2,7 +2,6 @@
 publish: true
 title: Maps
 ---
-# Sword Coast Map
 ```base
 views:
   - type: leaflet-map
