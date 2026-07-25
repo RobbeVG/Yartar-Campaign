@@ -2,7 +2,6 @@
 tags:
   - location
   - locations
-title: Locations
 publish: true
 marker:
   - coordinates: 5117, 4962

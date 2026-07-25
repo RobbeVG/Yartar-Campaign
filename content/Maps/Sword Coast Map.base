@@ -1,6 +1,8 @@
 views:
   - type: leaflet-map
     name: Map
+    order:
+      - file.name
     image: Assets/Sword-Coast-Map_MedRes.jpg
     height: 800
     defaultZoom: -15

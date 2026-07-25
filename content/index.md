@@ -18,13 +18,4 @@ on purpose — it'll show up the moment your characters actually discover it.
 - [[Lore/index|World Lore]]
 
 
-[[Sword-Coast Map.base]] 
-
-```base
-views:
-  - type: leaflet-map
-    name: Map
-    mapName: Sword Coast
-    image: Assets/Sword-Coast-Map_MedRes.jpg
-
-```
+[[Sword Coast Map.base]] 
