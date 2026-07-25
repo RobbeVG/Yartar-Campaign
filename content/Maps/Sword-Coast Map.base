@@ -1,0 +1,10 @@
+views:
+  - type: leaflet-map
+    name: Map
+    image: Assets/Sword-Coast-Map_MedRes.jpg
+    height: 800
+    defaultZoom: -15
+    minZoom: -3
+    scale: "0.2754820937"
+    unit: Miles
+    maxZoom: 0
