@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: robbevg.github.io
+  baseUrl: robbevg.github.io/Yartar-Campaign-Site
   ignorePatterns:
     - private
     - templates
