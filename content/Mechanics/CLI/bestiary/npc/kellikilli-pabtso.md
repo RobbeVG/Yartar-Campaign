@@ -1,0 +1,63 @@
+---
+obsidianUIMode: preview
+cssclasses:
+- json5e-monster
+tags:
+- ttrpg-cli/compendium/src/5e/pabtso
+- ttrpg-cli/monster/cr/3
+- ttrpg-cli/monster/size/large
+- ttrpg-cli/monster/type/elemental
+statblock: inline
+statblock-link: "#^statblock"
+aliases:
+- "Kellikilli"
+---
+# [Kellikilli](Mechanics/CLI/bestiary/npc/kellikilli-pabtso.md)
+*Source: Phandelver and Below: The Shattered Obelisk p. 121*  
+
+```statblock
+"name": "Kellikilli (PaBTSO)"
+"size": "Large"
+"type": "elemental"
+"alignment": "Neutral"
+"ac": !!int "13"
+"hp": !!int "58"
+"hit_dice": "9d10 + 9"
+"modifier": !!int "3"
+"stats":
+  - !!int "17"
+  - !!int "16"
+  - !!int "13"
+  - !!int "11"
+  - !!int "10"
+  - !!int "10"
+"speed": "0 ft., swim 60 ft."
+"damage_resistances": "fire; bludgeoning, piercing, slashing from nonmagical attacks"
+"damage_immunities": "poison"
+"condition_immunities": "[exhaustion](Mechanics/CLI/rules/conditions.md#Exhaustion),\
+  \ [grappled](Mechanics/CLI/rules/conditions.md#Grappled), [paralyzed](Mechanics/CLI/rules/conditions.md#Paralyzed),\
+  \ [poisoned](Mechanics/CLI/rules/conditions.md#Poisoned), [restrained](Mechanics/CLI/rules/conditions.md#Restrained),\
+  \ [prone](Mechanics/CLI/rules/conditions.md#Prone), [unconscious](Mechanics/CLI/rules/conditions.md#Unconscious)"
+"senses": "[blindsight](Mechanics/CLI/rules/senses.md#Blindsight) 30 ft., passive\
+  \ Perception 10"
+"languages": "understands Aquan but doesn't speak"
+"cr": "3"
+"traits":
+  - "desc": "Kellikilli is [invisible](Mechanics/CLI/rules/conditions.md#Invisible)\
+      \ while fully immersed in water."
+    "name": "Invisible in Water"
+  - "desc": "Kellikilli dies if it leaves the water to which it is bound or if that\
+      \ water is destroyed."
+    "name": "Water Bound"
+"actions":
+  - "desc": "*Melee Weapon Attack:* +5 to hit, reach 10 ft., one creature. *Hit:*\
+      \ 13 (3d6 + 3) bludgeoning damage. If the target is Medium or smaller, it\
+      \ is [grappled](Mechanics/CLI/rules/conditions.md#Grappled) (escape DC 13) and\
+      \ pulled 5 feet toward Kellikilli. Until this grapple ends, the target is [restrained](Mechanics/CLI/rules/conditions.md#Restrained),\
+      \ Kellikilli tries to drown it, and Kellikilli can't constrict another target."
+    "name": "Constrict"
+"source":
+  - "PaBTSO"
+"image": "Mechanics/CLI/bestiary/npc/token/kellikilli-pabtso.webp"
+```
+^statblock
